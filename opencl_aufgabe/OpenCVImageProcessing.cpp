@@ -122,8 +122,8 @@ void OpenCVImageProcessing::execute(std::vector<std::string>& files, std::string
 
         // Create .jpg file from the result
         std::string numberingFile = std::to_string(i + 1);
-        std::string hsvImageFile = numberingFile + ".hsvImage.jpg";
-        std::string blurredImageFile = numberingFile + ".blurredImage.jpg";
+        std::string hsvImageFile = folderPath + numberingFile + ".hsvImage.jpg";
+        std::string blurredImageFile = folderPath + numberingFile + ".blurredImage.jpg";
         std::string blurredHSVImageFile = folderPath + numberingFile + ".blurredHSVImage.jpg";
         cv::imwrite(hsvImageFile, hsvImage);
         cv::imwrite(blurredImageFile, blurImage);
