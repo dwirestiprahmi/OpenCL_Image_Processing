@@ -15,8 +15,8 @@ void evaluateRuntime(std::vector<std::string>& files, std::string& path) {
     // Number of runs
     const int num_runs = 100;
 
-    /*oclip.runtime(files, path, num_runs);
-    ocvip.runtime(files, path, num_runs);*/
+    oclip.runtime(files, path, num_runs);
+    ocvip.runtime(files, path, num_runs);
     cip.runtime(files, path, num_runs);
 }
 

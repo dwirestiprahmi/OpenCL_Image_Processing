@@ -7,14 +7,6 @@
 #include <fstream>
 #include <iostream>
 
-struct RGB {
-    float r, g, b;
-};
-
-struct HSV {
-    float h, s, v;
-};
-
 class ImageProcessorInterface {
 public:
     virtual ~ImageProcessorInterface() {}

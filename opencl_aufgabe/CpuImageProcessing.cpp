@@ -5,7 +5,7 @@ CpuImageProcessing::CpuImageProcessing() {}
 
 CpuImageProcessing::~CpuImageProcessing() {}
 
-HSV CpuImageProcessing::rgbToHsvCPU(float r, float g, float b) {
+CpuImageProcessing::HSV CpuImageProcessing::rgbToHsvCPU(float r, float g, float b) {
     // Normalized to the range [0, 1]
     float red = r / 255.0f;
     float green = g / 255.0f;

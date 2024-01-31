@@ -1,5 +1,5 @@
-
-__kernel void rgbToHsv(__global const uchar* inputImage, __global uchar* outputImage, 
+__kernel void rgbToHsv(__global const uchar* inputImage, 
+    __global uchar* outputImage, 
     int width, int height, int depth)
 {
     // store work-item's index

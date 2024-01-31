@@ -46,3 +46,5 @@ Average Runtime HSV With CPU, Picture 7: 0.025119 seconds
 Average Runtime Blur With CPU, Picture 7: 2.805918 seconds
 Average Runtime HSV With CPU, Picture 8: 0.069931 seconds
 Average Runtime Blur With CPU, Picture 8: 7.994411 seconds
+
+

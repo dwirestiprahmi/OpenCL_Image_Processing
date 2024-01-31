@@ -8,6 +8,14 @@ public:
     CpuImageProcessing();
     virtual ~CpuImageProcessing();
 
+    struct RGB {
+        float r, g, b;
+    };
+
+    struct HSV {
+        float h, s, v;
+    };
+
     virtual void execute(std::vector<std::string>& files, std::string& path) override;
     virtual void rgbToHsv(const cv::Mat& input, cv::Mat& output) override;
     virtual void boxBlur(const cv::Mat& input, cv::Mat& output, int kernelSize) override;
