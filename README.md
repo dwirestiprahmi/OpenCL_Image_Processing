@@ -45,18 +45,18 @@ Adjust Visual Studio Project Settings (note debug/release and 32/64 bit settings
   ![1706737102094](image/README/1706737102094.png)
 * Choose one of the options to continue with the application.
 
-  **Option 1** leads to the actual image processing tasks. The user will be asked to choose the image processing with CPU, OpenCL, or OpenCV. The result of the image processing will be saved in folder Result CPU, Result OpenCL, and Result OpenCV.
+  **Option 1** leads to the actual image processing tasks. The user will be asked to choose the image processing with CPU, OpenCL, or OpenCV. The result of the image processing will be saved in folder ![Result CPU](opencl_aufgabe/Result%20CPU), ![Result OpenCL](opencl_aufgabe/Result%20OpenCL), and ![Result OpenCV](opencl_aufgabe/Result%20OpenCV).
 
-  ![1706737241591](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Ami%20Rahmi/source/repos/opencl_aufgabe/image/README/1706737241591.png)
+  ![1706737241591](image/README/1706737241591.png)
 
   Example of the result of the image processing:
 
-  ![1706737345190](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Ami%20Rahmi/source/repos/opencl_aufgabe/image/README/1706737345190.png)
+  ![1706737345190](/image/README/1706737345190.png)
 
-  **Option 2** assess the runtime performance of different image processing techniques using CPU, OpenCL, and OpenCV implementations. When chosen, the runtime from all of the image processing with CPU, OpenCL, and OpenCV will be measured. Each process will convert the original image → HSV and implement the blur to the original image, and then the runtime is measured separately 100 times, and the average will be used as the value of the runtime. The result will be written into a .txt file.
+  **Option 2** assess the runtime performance of different image processing techniques using CPU, OpenCL, and OpenCV implementations. When chosen, the runtime from all of the image processing with CPU, OpenCL, and OpenCV will be measured. Each process will convert the original image → HSV and implement the blur to the original image, and then the runtime is measured separately 100 times, and the average will be used as the value of the runtime. The result will be written into .txt file that can be seen here ![runtimeEvaluation](opencl_aufgabe/Evaluation)
 
   **Option 3** ends the program.
 
 ## Evaluation
 
-The runtime of the image processing with CPU, OpenCL, and OpenCV has been evaluated and can be seen in folder
+The runtime of the image processing with CPU, OpenCL, and OpenCV has been evaluated and can be seen in folder ![Evaluation](https://github.com/dwirestiprahmi/OpenCL_Image_Processing/tree/master/opencl_aufgabe/Evaluation)
