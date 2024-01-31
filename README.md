@@ -12,7 +12,7 @@ This program implements the process of parallelizing the conversion of an image 
 
 
 ## Class Diagram
-
+![diagram](image/opencl_aufgabe.drawio.png)
 
 ## Getting Started
 
